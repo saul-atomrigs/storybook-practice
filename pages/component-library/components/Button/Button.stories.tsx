@@ -13,5 +13,14 @@ export const Primary: ComponentStory<typeof Button> = () => (
   <Button primary>Button</Button>
 );
 
+// 여러 버전의 story를 추가할 수 있다:
+export const Secondary: ComponentStory<typeof Button> = () => (
+  <Button backgroundColor="#ff0" label="😄👍😍💯" />
+);
+
+export const Tertiary: ComponentStory<typeof Button> = () => (
+  <Button backgroundColor="#ff0" label="📚📕📈🤓" />
+);
+
 // 스토리북 사이드바에 story 이름 변경하기:
 Primary.storyName = "Primary Button";
