@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "devDependencies": {
-    "@storybook/cli": "^6.5.16"
+    "@storybook/cli": "^6.5.16",
+    "@types/react": "^18.0.28"
+  },
+  "dependencies": {
+    "@storybook/react": "^6.5.16"
   }
 }
