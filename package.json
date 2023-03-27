@@ -7,5 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^6.5.16",
+    "@storybook/cli": "^6.5.16",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.28"
+  },
+  "dependencies": {
+    "@storybook/react": "^6.5.16"
   }
 }
